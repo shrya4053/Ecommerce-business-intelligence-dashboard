@@ -1,33 +1,24 @@
 # Brazilian E-Commerce Business Intelligence Dashboard
 ## Project Objective
-This project analyzes an e-commerce transaction dataset to uncover insights related to sales performance, customer behavior, and operational efficiency.
-The objective is to help the business identify revenue drivers, customer segments, and operational bottlenecks in order to improve marketing strategies, customer retention, and logistics performance.
+An end-to-end data analytics project analyzing ~100K e-commerce orders to uncover sales trends, customer segments, and operational inefficiencies.  
+The project uses SQL and Power BI to generate actionable insights that can improve customer retention, marketing strategy, and logistics performance.
 
-## Dataset Used
-Brazilian E-Commerce Public Dataset containing information about:
-•	Orders link)
-•	Customers
-•	Products
-•	Payments
-•	Delivery details
-The dataset contains ~100K orders and ~96K customers, providing insights into real-world e-commerce operations.
+## Dashboard Preview
+### Executive Overview
+<img width="861" height="482" alt="Executive Overview" src="https://github.com/user-attachments/assets/627b25c0-5e97-4599-8b8f-32fcd0bceba6" />
 
-## Key Business Questions (KPIs)
-### Sales & Revenue Analysis
-•	What is the total revenue generated and order volume?
-•	Which product categories contribute the most revenue?
-•	Which cities and states drive the highest sales?
-•	How does revenue change over time?
+### Operations & Payments Analysis
+<img width="858" height="488" alt="Customer Analytics" src="https://github.com/user-attachments/assets/09409976-cedd-4ac9-8298-97c678a72fd3" />
 
-### Customer Behavior Analysis
-•	How are customers distributed across RFM segments (Champions, Loyal, At Risk, Lost)?
-•	Which customer segments contribute the most revenue?
-•	What is the average purchase frequency of different customer groups?
+### Customer Analysis
+<img width="858" height="488" alt="Customer Analytics" src="https://github.com/user-attachments/assets/466a7012-666a-48dc-af8e-2d1367af25b7" />
 
-### Payment & Operational Analysis
-•	Which payment methods are most frequently used?
-•	Are deliveries mostly on time or late?
-•	Which states experience longer delivery times?
+### Sales Analysis
+<img width="854" height="489" alt="Sales Performance" src="https://github.com/user-attachments/assets/4dc91241-c578-4fd0-af9e-a69cfce9725d" />
+Overview.png…]()
+
+## Dataset
+Brazilian E-Commerce public dataset (~100K orders, ~96K customers) containing order, payment, product, and delivery information.
 
 ## Dashboard Insights
 ### Key KPIs
@@ -44,22 +35,20 @@ The dataset contains ~100K orders and ~96K customers, providing insights into re
 •	Multiple product categories contribute similar revenue levels, indicating diversified product demand.
 
 ### Customer Insights
-•	Most customers fall into the Regular and At-Risk segments, indicating limited repeat purchasing behavior.
-•	Only a small portion of customers belong to the Champion segment, which represents the most loyal and high-value users.
-•	Customer purchase frequency is relatively low, suggesting the business relies heavily on new customer acquisition rather than retention.
-#### Customer segmentation (RFM model):
-•	34K Regular Customers
-•	23K At-Risk Customers
-•	20K Loyal Customers
-•	12K Potential Loyalists
-•	8K Lost Customers
-•	3K Champions
-Most customers purchase only once (avg frequency ≈1), indicating strong acquisition but low repeat purchasing.
-Major order-generating cities include:
-São Paulo, Rio de Janeiro, Belo Horizonte, Brasília, and Curitiba.
+• Most customers fall into the Regular and At-Risk segments, indicating limited repeat purchasing behavior.
+• Only a small share of customers belong to the Champion segment, representing the highest-value and most loyal users.
+
+#### Customer Segmentation (RFM Model)
+• 34K Regular Customers  
+• 23K At-Risk Customers  
+• 20K Loyal Customers  
+• 12K Potential Loyalists  
+• 8K Lost Customers  
+• 3K Champions  
+Major order-generating cities include São Paulo, Rio de Janeiro, Belo Horizonte, Brasília, and Curitiba.
 
 ### Payment Insights
-•	Credit cards dominate payment methods by 74% boleto and vouchers, accounting for the majority of transactions.
+Credit cards dominate payments (74%), followed by boleto and vouchers.
 •	Installment payments are commonly used for higher-value purchases.
 
 ### Operational Insights
@@ -79,20 +68,21 @@ São Paulo, Rio de Janeiro, Belo Horizonte, Brasília, and Curitiba.
 •	Encourage Repeat Purchases: Offer discounts, bundle deals, and personalized recommendations to increase purchase frequency.
 
 ## Process
-### Data Preparation
-•	Imported raw CSV datasets into PostgreSQL
-•	Performed data cleaning and validation
-•	Ensured consistency in data types, timestamps, and missing values
-### Data Analysis
-•	Created SQL queries to analyze sales and customer data
-•	Implemented RFM customer segmentation
-### Visualization
-Built an interactive dashboard using
-Microsoft Power BI
-to visualize business metrics and trends.
+- Data cleaning and preparation in SQL
+- Customer segmentation using RFM analysis
+- Business metrics analysis using SQL queries
+- Interactive dashboard built in Power BI
+- Generative AI in generating and refining business insights
+
+## Potential Business Impact
+• Increase repeat purchases through targeted retention campaigns  
+• Improve customer lifetime value by converting At-Risk customers  
+• Reduce delivery delays and improve customer satisfaction  
+• Optimize marketing spend by focusing on high-revenue regions
 
 ## Tools Used
-•	SQL (PostgreSQL)
+•	SQL 
 •	Microsoft Power BI
 •	Excel
 •	Generative AI for automated business insights
+- RFM Analysis

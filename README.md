@@ -37,7 +37,6 @@ Brazilian E-Commerce public dataset (~100K orders, ~96K customers) containing or
 ### Customer Insights
 • Most customers fall into the Regular and At-Risk segments, indicating limited repeat purchasing behavior.
 • Only a small share of customers belong to the Champion segment, representing the highest-value and most loyal users.
-
 #### Customer Segmentation (RFM Model)
 • 34K Regular Customers  
 • 23K At-Risk Customers  
